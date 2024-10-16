@@ -1,0 +1,30 @@
+/* style.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.panda-container {
+  text-align: center;
+}
+
+#panda {
+  width: 200px;
+  animation: wave 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0% { transform: rotate(0); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(0); }
+}
+
+#greeting {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+}
